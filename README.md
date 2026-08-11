@@ -1,4 +1,4 @@
-# SQL-sales-data-analysis-project\
+# SQL-sales-data-analysis-project
 ## 📊 Project Overview
 This project focuses on analyzing retail sales data using SQL:
 ## 🎯 Business Questions Answered
