@@ -40,7 +40,7 @@ SELECT
   where status = 'Delivered'
   group by Product_name
   order by Total_Quantity Desc
-  Limit 5;
+  Limit 5;```
 
 ###2.Which product’s are most frequently cancelled?
 * **Business Need:**Identify which items are most frequently cancelled by customers.
@@ -53,7 +53,7 @@ From sales
 where Status = 'Cancelled'
 group by product_name 
 order by Cancelled_products Desc
-limit 10;
+limit 10;```
 
 ###3.What time’s of the day has the highest number of purchases?
 * **Business Need:**Determine the specific hours of the day when customers place the highest volume of orders.
@@ -69,7 +69,7 @@ SELECT
 		count(*) as Total_order
 	from sales
  	group by time_of_day
- 	order by Total_order Desc;
+ 	order by Total_order Desc;```
 
 ###4.Who are the top 5 highest spending customers?
 * **Business Need:**Identify the top 5 customers who have generated the most revenue for the business.
@@ -83,7 +83,7 @@ from sales
 where status = 'Delivered'
 group by customer_id,Customer_name
 order by Total_spending_by_customer Desc
-limit 5;   
+limit 5;```
 
 
 
