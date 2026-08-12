@@ -31,7 +31,7 @@ The analysis is based on a relational database containing the following core tab
 ### 1.Top 5 most selling products by quantity (Delivered Only)
 * **Business Need:**Identify the top 5 fastest-moving products based on total units sold.
 * **Query:**
- ``` sql
+ ```sql
 SELECT
   select 
 		product_name,
@@ -85,8 +85,4 @@ group by customer_id,Customer_name
 order by Total_spending_by_customer Desc
 limit 5;```
 
-
-
-
-##
 
