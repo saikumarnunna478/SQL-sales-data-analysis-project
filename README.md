@@ -27,7 +27,7 @@ The analysis is based on a relational database containing the following core tab
 
 ## 🔍 Key SQL Queries & Insights
 
-### 1.Top 5 most selling products by quantity (Delivered Only)?
+###1.Top 5 most selling products by quantity (Delivered Only)?
 * **Business Need:**Identify the top 5 fastest-moving products based on total units sold.
 * **Query:**
  ```Sql
