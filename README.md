@@ -159,6 +159,7 @@ The analysis is based on a relational database containing the following core tab
 	from sales
 	where status = 'Delivered'
 	group by status;'''
+
 ###11.Revenue from furniture(delivered)?
 * **Business Need:**Calculate the exact realized revenue from the furniture segment by filtering out fulfilled orders.
 * **Query:**
